@@ -4,6 +4,7 @@ namespace:
 image:
   repository: nginx
   tag: 1.18.0
+  pullPolicy: IfNotPresent
 
 replicaCount: 1
 
