@@ -21,7 +21,7 @@ spec:
     metadata:
       labels:
         app: nginx
-        tag: {{ .Values.image.tag }}
+        tag: alpine
     spec:
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
